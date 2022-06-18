@@ -5,6 +5,7 @@ import UserDetails from './screens/UserDetails';
 import UserList from './screens/UserList';
 import UserDetailsWithRedux from './screens/UserDetailsWithRedux';
 import UseContextExample from './screens/UseContextExample';
+import UseContextExample2 from './screens/UseContextExample2';
 import UserListWithRedux from './screens/UserListWithRedux';
 import TypescriptReturnReactNode from './screens/TypescriptReturnReactNode';
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="users" element={<UserList />}></Route>
         <Route path="users/:userid" element={<UserDetails />} />
         <Route path="use-context-example" element={<UseContextExample />} />
+        <Route path="use-context-example-2" element={<UseContextExample2 />} />
         <Route path="ts-return-react-node" element={<TypescriptReturnReactNode />} />
         <Route path="users-with-redux" element={<UserListWithRedux />}></Route>
         <Route path="users-with-redux/:userid" element={<UserDetailsWithRedux />} />
